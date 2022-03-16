@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baba3f69-862d-4fa3-bcc6-e9c552c49307" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ApiException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ApiException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DeptDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DeptDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/NewsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/NewsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/SQL2oSitemapDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/SQL2oSitemapDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Sitemap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/Sitemap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SQL2oSitemapDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SQL2oSitemapDao.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +106,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewsTest">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="news-portal.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="news-portal.test" />
       <extension name="coverage">
@@ -125,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.NewsTest" />
         <item itemvalue="JUnit.DepartmentTest" />
       </list>
