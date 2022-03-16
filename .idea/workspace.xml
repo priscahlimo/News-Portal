@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="baba3f69-862d-4fa3-bcc6-e9c552c49307" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/DatabaseRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dao/DatabaseRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.NewsTest">
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="news-portal.test" />
       <extension name="coverage">
@@ -110,8 +109,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NewsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="news-portal.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.NewsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NewsTest" />
         <item itemvalue="JUnit.DepartmentTest" />
       </list>
     </recent_temporary>
