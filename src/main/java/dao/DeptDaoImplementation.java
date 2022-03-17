@@ -4,6 +4,7 @@ import models.Department;
 import models.News;
 import models.User;
 import org.sql2o.Connection;
+import org.sql2o.Sql2o;
 import org.sql2o.Sql2oException;
 
 import java.util.ArrayList;
@@ -11,10 +12,16 @@ import java.util.List;
 
 public class DeptDaoImplementation implements DeptDao {
 
+    private final Sql2o sql2o;
+
+    public DeptDaoImplementation(Sql2o sql2o) {
+        this.sql2o = sql2o;
+    }
+
     @Override
     public void add(Department department) {
         String sql = "INSERT INTO departments (name,description,totalemployees) VALUES (:name,:description,:totalemployees)";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             int id = (int) con.createQuery(sql,true)
                     .bind(department)
                     .addParameter("totalemployees",department.getTotalEmployees())
@@ -30,7 +37,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void addUserToDept(Department department,User user) {
         String sql = "INSERT INTO departments_users(deptid,userid) values (:deptid,:userid);";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("deptid",department.getId())
                     .addParameter("userid",user.getId())
@@ -46,7 +53,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public Department findById(int id) {
         String sql = "SELECT * from departments WHERE id=:id;";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             return con.createQuery(sql)
                     .addParameter("id", id)
                     .executeAndFetchFirst(Department.class);
@@ -56,7 +63,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public List<Department> allDepartments() {
         String sql = "SELECT * from departments;";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             return con.createQuery(sql)
                     .executeAndFetch(Department.class);
         }
@@ -68,7 +75,7 @@ public class DeptDaoImplementation implements DeptDao {
 
         List<User> employees = new ArrayList<>();
         String joinQuery = "SELECT userid FROM departments_users WHERE deptid = :deptid";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             List<Integer> userIds = con.createQuery(joinQuery)
                     .addParameter("deptid",deptId)
                     .executeAndFetch(Integer.class);
@@ -95,7 +102,7 @@ public class DeptDaoImplementation implements DeptDao {
         List<News> news = new ArrayList<>();
         String joinQuery = "SELECT newsid FROM departments_news WHERE deptid = :deptid";
 
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             List<Integer> newsIDs = con.createQuery(joinQuery)
                     .addParameter("deptid",deptId)
                     .executeAndFetch(Integer.class);
@@ -117,7 +124,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void updateEmployeeCount(Department department) {
         String sql = "UPDATE departments SET totalemployees = :totalemployees WHERE id = :id";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("totalemployees",department.getTotalEmployees())
                     .addParameter("id",department.getId())
@@ -131,7 +138,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void deleteDepartmentById(int id) {
         String sql = "DELETE from departments WHERE id = :id";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("id", id)
                     .executeUpdate();
@@ -144,7 +151,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void deleteEmployeeFromDept(Department department, User user) {
         String sql = "DELETE from departments_users WHERE deptid = :deptid AND userid = :userid";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("deptid", department.getId())
                     .addParameter("userid", user.getId())
@@ -161,7 +168,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void deleteDeptNewsById(int deptId, int newsId) {
         String sql = "DELETE from departments_news WHERE deptid = :deptid AND newsid = :newsid";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql)
                     .addParameter("deptid", deptId)
                     .addParameter("newsid", newsId)
@@ -175,7 +182,7 @@ public class DeptDaoImplementation implements DeptDao {
     @Override
     public void deleteAll() {
         String sql = "DELETE from departments";
-        try (Connection con = DB.sql2o.open()) {
+        try (Connection con = sql2o.open()) {
             con.createQuery(sql).executeUpdate();
         } catch (Sql2oException ex) {
             System.out.println(ex);

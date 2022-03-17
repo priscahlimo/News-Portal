@@ -1,7 +1,6 @@
 package models;
 
-import dao.DatabaseRule;
-import org.junit.Rule;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -9,8 +8,6 @@ import static org.junit.Assert.assertTrue;
 
 @SuppressWarnings("ConstantConditions")
 public class DepartmentTest {
-    @Rule
-    public DatabaseRule databaseRule = new DatabaseRule();
 
     private Department newDept(){
         return new Department("Sales","We Strive for the best");

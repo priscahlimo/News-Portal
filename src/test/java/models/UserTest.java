@@ -1,6 +1,5 @@
 package models;
 
-import dao.DatabaseRule;
 import org.junit.Rule;
 import org.junit.Test;
 
@@ -10,8 +9,6 @@ import static org.junit.Assert.assertTrue;
 @SuppressWarnings("ConstantConditions")
 public class UserTest {
 
-    @Rule
-    public DatabaseRule databaseRule = new DatabaseRule();
 
     private User newUser(){
         return new User("The Star","Manager","Author","Media");

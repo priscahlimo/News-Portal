@@ -3,7 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="baba3f69-862d-4fa3-bcc6-e9c552c49307" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/SQL2oSitemapDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Sitemap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/dao/DatabaseRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/models/DepartmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/DepartmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/models/NewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/NewsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/models/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DeptDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DeptDaoImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/NewsDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/NewsDaoImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SQL2oSitemapDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDaoImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/models/Sitemap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/DatabaseRule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/DeptDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/NewsDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dao/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/UserTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,8 +83,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -101,16 +128,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewsDaoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="news-portal.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="models.*" />
+          <option name="PATTERN" value="dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.DepartmentTest" />
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.NewsDaoImplementationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +158,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDaoImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="news-portal.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dao" />
+      <option name="MAIN_CLASS_NAME" value="dao.UserDaoImplementationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="news-portal.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.NewsDaoImplementationTest" />
+        <item itemvalue="JUnit.UserDaoImplementationTest" />
+        <item itemvalue="JUnit.UserTest" />
         <item itemvalue="JUnit.NewsTest" />
-        <item itemvalue="JUnit.DepartmentTest" />
       </list>
     </recent_temporary>
   </component>

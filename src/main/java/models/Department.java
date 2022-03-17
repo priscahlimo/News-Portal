@@ -14,20 +14,7 @@ public class Department {
         this.totalEmployees = 0;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Department that = (Department) o;
-        return totalEmployees == that.totalEmployees &&
-                Objects.equals(name, that.name) &&
-                Objects.equals(description, that.description);
-    }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, description, totalEmployees);
-    }
 
     public String getName() {
         return name;
@@ -67,6 +54,21 @@ public class Department {
     }
     public void decrementTotalEmployees(){
         this.totalEmployees -= 1;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Department that = (Department) o;
+        return totalEmployees == that.totalEmployees &&
+                Objects.equals(name, that.name) &&
+                Objects.equals(description, that.description);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, description, totalEmployees);
     }
 
 }
