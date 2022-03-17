@@ -34,8 +34,8 @@ public class App {
         Gson gson = new Gson();
         Connection conn;
 
-        String connectionString = "jdbc:postgresql://gmpaixahqkhzxz:fef77d14054513a9f448c45eb65bdfc007c5074721ed5955c83fecc047bd72b7@ec2-34-192-83-52.compute-1.amazonaws.com:5432/d4moohjoqsa8eg";
-        Sql2o sql2o = new Sql2o(connectionString, "gmpaixahqkhzxz", "fef77d14054513a9f448c45eb65bdfc007c5074721ed5955c83fecc047bd72b7");
+//        String connectionString = "jdbc:postgresql://gmpaixahqkhzxz:fef77d14054513a9f448c45eb65bdfc007c5074721ed5955c83fecc047bd72b7@ec2-34-192-83-52.compute-1.amazonaws.com:5432/d4moohjoqsa8eg";
+//        Sql2o sql2o = new Sql2o(connectionString, "gmpaixahqkhzxz", "fef77d14054513a9f448c45eb65bdfc007c5074721ed5955c83fecc047bd72b7");
 
 
         deptDao = new DeptDaoImplementation(DB.sql2o);
