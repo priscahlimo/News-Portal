@@ -8,6 +8,7 @@ group 'com.moringa.news-portal'
 version '1.0-SNAPSHOT'
 
 mainClassName = 'App'
+applicationName='newsportal-priscah'
 
 sourceCompatibility = 1.8
 

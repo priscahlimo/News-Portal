@@ -3,34 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="baba3f69-862d-4fa3-bcc6-e9c552c49307" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/DeptDaoImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/NewsDaoImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/SQL2oSitemapDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/dao/UserDaoImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Sitemap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/dao/DatabaseRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/models/DepartmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/DepartmentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/models/NewsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/NewsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/models/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/models/UserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DeptDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/DeptDaoImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/NewsDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/NewsDaoImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SQL2oSitemapDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDaoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/UserDaoImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/Sitemap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/DatabaseRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/DeptDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/NewsDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dao/UserDaoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/NewsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
